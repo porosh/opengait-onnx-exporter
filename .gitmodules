@@ -1,0 +1,6 @@
+[submodule "opengait_code"]
+	path = opengait_code
+	url = https://github.com/ShiqiYu/OpenGait.git
+[submodule "repo"]
+	path = repo
+	url = https://huggingface.co/opengait/OpenGait
