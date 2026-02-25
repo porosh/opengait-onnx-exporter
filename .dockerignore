@@ -1,0 +1,15 @@
+# Large runtime artifacts and cloned repos; keep out of Docker build context.
+repo/
+opengait_code/
+output/
+
+# VCS and local noise.
+.git/
+.gitignore
+.DS_Store
+__pycache__/
+*.pyc
+
+# Generated model/export files.
+*.pt
+*.onnx

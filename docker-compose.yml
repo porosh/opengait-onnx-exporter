@@ -1,0 +1,10 @@
+services:
+  exporter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/arm64
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: python scripts/export_all.py
